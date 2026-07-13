@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/logo.svg" width="110"/>
-
 # Path2Plate
 
 ### Intelligent Indoor Food Delivery
