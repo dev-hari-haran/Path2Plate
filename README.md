@@ -1051,7 +1051,7 @@ You are free to use, modify, distribute, and build upon this work in accordance 
 
 <div align="center">
 
-<img src="assets/logo.svg" width="70"/>
+
 
 # Path2Plate
 
