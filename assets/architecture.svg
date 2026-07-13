@@ -1,0 +1,321 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980">
+
+<defs>
+
+<style>
+
+.title{
+font:700 44px Inter,Segoe UI,Arial,sans-serif;
+fill:#111827;
+}
+
+.subtitle{
+font:18px Inter,Segoe UI,Arial,sans-serif;
+fill:#6B7280;
+}
+
+.layer{
+font:700 16px Inter;
+letter-spacing:2px;
+fill:#76B900;
+}
+
+.heading{
+font:700 24px Inter;
+fill:#111827;
+}
+
+.text{
+font:16px Inter;
+fill:#6B7280;
+}
+
+.box{
+fill:#ffffff;
+stroke:#E5E7EB;
+stroke-width:2;
+rx:20;
+}
+
+.arrow{
+stroke:#76B900;
+stroke-width:3;
+fill:none;
+marker-end:url(#arrow);
+}
+
+</style>
+
+<marker id="arrow"
+markerWidth="10"
+markerHeight="10"
+refX="8"
+refY="3"
+orient="auto">
+
+<path d="M0,0 L8,3 L0,6"
+fill="#76B900"/>
+
+</marker>
+
+</defs>
+
+<rect width="100%" height="100%" fill="#F9FAFB"/>
+
+<!-- Header -->
+
+<text x="800"
+y="70"
+text-anchor="middle"
+class="title">
+
+Path2Plate Architecture
+
+</text>
+
+<text x="800"
+y="105"
+text-anchor="middle"
+class="subtitle">
+
+A Bluetooth Controlled Indoor Food Delivery Robot Inspired by the A* Search Algorithm
+
+</text>
+
+<!-- USER -->
+
+<text x="120" y="170" class="layer">USER INTERACTION</text>
+
+<rect class="box"
+x="170"
+y="200"
+width="1260"
+height="120"/>
+
+<text class="heading"
+x="800"
+y="255"
+text-anchor="middle">
+
+Restaurant Operator • Customer
+
+</text>
+
+<text class="text"
+x="800"
+y="290"
+text-anchor="middle">
+
+Select Destination • Start Delivery • Receive Food
+
+</text>
+
+<!-- PATH -->
+
+<text x="120" y="390" class="layer">INTELLIGENT ROUTING</text>
+
+<rect class="box"
+x="170"
+y="420"
+width="1260"
+height="160"/>
+
+<text class="heading"
+x="800"
+y="485"
+text-anchor="middle">
+
+A* Mimic Search Engine
+
+</text>
+
+<text class="text"
+x="800"
+y="520"
+text-anchor="middle">
+
+Generate the Recommended Shortest Route
+
+</text>
+
+<text class="text"
+x="800"
+y="550"
+text-anchor="middle">
+
+Path Cost • Heuristic • Direction Recommendation
+
+</text>
+
+<!-- CONTROL -->
+
+<text x="120" y="650" class="layer">EMBEDDED CONTROL SYSTEM</text>
+
+<rect class="box"
+x="170"
+y="680"
+width="280"
+height="170"/>
+
+<text class="heading"
+x="310"
+y="735"
+text-anchor="middle">
+
+Bluetooth
+
+</text>
+
+<text class="text"
+x="310"
+y="770"
+text-anchor="middle">
+
+HC-05 Module
+
+</text>
+
+<rect class="box"
+x="500"
+y="680"
+width="280"
+height="170"/>
+
+<text class="heading"
+x="640"
+y="735"
+text-anchor="middle">
+
+Arduino UNO
+
+</text>
+
+<text class="text"
+x="640"
+y="770"
+text-anchor="middle">
+
+Decision Controller
+
+</text>
+
+<text class="text"
+x="640"
+y="800"
+text-anchor="middle">
+
+Motion Logic
+
+</text>
+
+<rect class="box"
+x="830"
+y="680"
+width="280"
+height="170"/>
+
+<text class="heading"
+x="970"
+y="735"
+text-anchor="middle">
+
+Motor Driver
+
+</text>
+
+<text class="text"
+x="970"
+y="770"
+text-anchor="middle">
+
+L298N
+
+</text>
+
+<rect class="box"
+x="1160"
+y="680"
+width="280"
+height="170"/>
+
+<text class="heading"
+x="1300"
+y="735"
+text-anchor="middle">
+
+OLED + QR
+
+</text>
+
+<text class="text"
+x="1300"
+y="770"
+text-anchor="middle">
+
+Status Display
+
+</text>
+
+<text class="text"
+x="1300"
+y="800"
+text-anchor="middle">
+
+Delivery Verification
+
+</text>
+
+<!-- ROBOT -->
+
+<text x="120" y="915" class="layer">ROBOT PLATFORM</text>
+
+<rect class="box"
+x="500"
+y="900"
+width="600"
+height="60"/>
+
+<text class="heading"
+x="800"
+y="938"
+text-anchor="middle">
+
+4WD Mobile Robot
+
+</text>
+
+<!-- Vertical arrows -->
+
+<path class="arrow"
+d="M800 320 L800 420"/>
+
+<path class="arrow"
+d="M800 580 L800 680"/>
+
+<path class="arrow"
+d="M800 850 L800 900"/>
+
+<!-- Horizontal -->
+
+<path class="arrow"
+d="M450 765 L500 765"/>
+
+<path class="arrow"
+d="M780 765 L830 765"/>
+
+<path class="arrow"
+d="M1110 765 L1160 765"/>
+
+<!-- Footer -->
+
+<text
+x="800"
+y="975"
+text-anchor="middle"
+class="subtitle">
+
+Arduino UNO • HC-05 • L298N • SSD1306 OLED • Bluetooth Control • QR Verification • A* Inspired Navigation
+
+</text>
+
+</svg>
